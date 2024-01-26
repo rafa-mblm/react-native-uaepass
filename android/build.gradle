@@ -82,10 +82,11 @@ dependencies {
   // For > 0.71, this will be replaced by `com.facebook.react:react-android:$version` by react gradle plugin
   //noinspection GradleDynamicVersion
 
-  
-  
+
+
     //UAE PASS START -- Enable Dependency Start
-    implementation fileTree(dir: "libs", include: ["*.jar","*.aar"])
+    // implementation fileTree(dir: "libs", include: ["*.jar","*.aar"])
+
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
     implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
